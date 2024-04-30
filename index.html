@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/guess-the-word-img.png">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Guess The Word Game</title>
+</head>
+<body>
+    <h2 class="game-name">Guess The Word Game</h2>
+    <div class="game">
+        <div class="container">
+            <div class="game-area">
+                <div class="inputs"></div>
+                <div class="control">
+                    <button class="check">Check Word</button>
+                </div>
+            </div>
+            <div class="key-colors">
+                <h2>Key Color</h2>
+                <div class="key-color">
+                    <div class="key in-place"></div>
+                    <div class="key-text">The Letter Is Correct And In The Place</div>
+                </div>
+                <div class="key-color">
+                    <div class="key not-in-place"></div>
+                    <div class="key-text">The Letter Is Correct But not In The Place</div>
+                </div>
+                <div class="key-color">
+                    <div class="key no"></div>
+                    <div class="key-text">The Letter Is Wrong</div>
+                </div>
+            </div>
+            <div class="sounds">
+                <audio id="success" src="sounds/success-1-6297.mp3" preload="auto"></audio>
+                <audio id="fail" src="sounds/negative_beeps-6008.mp3" preload="auto"></audio>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">Made with love By <span>omar</span></footer>
+    <script src="/main.js"></script>
+</body>
+</html>
